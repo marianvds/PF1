@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MACA Museum - Art Quiz</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">Art Quiz</a>
+
+            <nav class="navbar">
+                <a href="#" class="active">Home</a>
+                <a href="https://www.macamuseum.com/about">About MACA</a>
+                <a href="https://www.macamuseum.com/contact-1">Contact</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <button class="close-btn hidden">&times;</button>
+
+                <div class="quiz-box">
+                    <h1>MACA's Art Quiz</h1>
+                    <div class="quiz-header">
+                        <span>Banksy & Street Art: The Early Years</span>
+                        <span class="header-score">Score: 0 / 5</span>
+                    </div>
+
+                    <h2 class="question-text"></h2>
+                    <div class="option-list">
+                        <div class="option">
+                            <span>A.</span>
+                        </div>
+                        <div class="option">
+                            <span>B.</span>
+                        </div>
+                        <div class="option">
+                            <span>C.</span>
+                        </div>
+                        <div class="option">
+                            <span>D.</span>
+                        </div>
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 5 Questions</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div> 
+
+                <div class="result-box">
+                    <h2>Quiz result</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>  
+                        </div>
+
+                        <span class="score-text">Your Score is 0 out 0f 5</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="goHome-btn">Go To Home</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>Welcome to MACA's Art Quiz</h1>
+                    <p>After exploring the creativity and boldness of our exhibition <strong>Banksy & Street Art: The Early Years</strong>, it's time to put your art knowledge to the test. Ready to prove you're an art <em>connoisseur</em>?</p>
+                    <button class="start-btn">Start Quiz</button>
+                </div>
+            </section>
+        </div>
+       
+    </main>
+    <script src="./questions.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
